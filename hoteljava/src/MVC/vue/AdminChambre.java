@@ -53,7 +53,7 @@ public class AdminChambre extends JFrame {
         JScrollPane scrollPane = new JScrollPane();
         scrollPane.setBounds(150, 50, 430, 380);
         contentPane.add(scrollPane);
-
+    //créer l'affichage des critères de réservations 
         table = new JTable();
         table.setModel(new DefaultTableModel(new Object[][] {}, new String[] { "Numero", "Num Chambre", "Type" }));
         scrollPane.setViewportView(table);
